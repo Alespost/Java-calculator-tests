@@ -13,11 +13,6 @@ public class Calculator {
 
     public double div(double a, double b)
     {
-        if (b == 0)
-        {
-            throw new ArithmeticException("Division by zero");
-        }
-
         return a / b;
     }
 }
